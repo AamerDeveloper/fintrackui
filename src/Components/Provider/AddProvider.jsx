@@ -3,27 +3,27 @@ import { Grid, TextField, Button } from "@mui/material";
 import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
 
-export const CategoryAdd = () => {
-  const [cat, setCat] = useState("");
+export const AddProvider = () => {
+  const [pro, setpro] = useState("");
 
   const handleAdd = () => {
-    axios.post("http://localhost:3030/addcategories", {
-      catId: uuidv4(),
-      catName: cat,
+    axios.post("http://localhost:3030/addproviders", {
+      proId: uuidv4(),
+      proName: pro,
       isActive: true,
     });
-    setCat("");
+    setpro("");
   };
   return (
     <React.Fragment>
       <Grid container spacing={3}>
         <Grid item xs={9}>
           <TextField
-            label="Add Category"
+            label="Add Providers..."
             variant="outlined"
-            value={cat}
+            value={pro}
             fullWidth
-            onChange={(e) => setCat(e.target.value)}
+            onChange={(e) => setpro(e.target.value)}
           />
         </Grid>
         <Grid item xs={3}>

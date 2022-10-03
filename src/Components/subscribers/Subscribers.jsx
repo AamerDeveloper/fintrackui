@@ -5,7 +5,8 @@ import { Display } from "../Display/Display";
 export const Subscribers = () => {
   return (
     <React.Fragment>
-      <Display collName="categories" fields={["catName", "catId"]} />
+      {/* <Display collName="genders" fields={["genName"]} /> */}
+      {/* <Display collName="categories" fields={["catName", "catId"]} /> */}
       <Display collName="subscribers" fields={["fname", "lname", "city"]} />
     </React.Fragment>
   );

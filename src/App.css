@@ -1,32 +1,40 @@
-.App{
+.App {
   text-align: center;
 }
- .inputs{
+.inputs {
   width: 80%;
- }
- .btn{
+}
+.btn {
   color: black !important;
- }
+}
 
- .about {
-  color:rgb(255, 255, 255);
-  width: 75%;
-  /* border-right: 5px solid; */
+.apiheader {
+  background-color: lightgray;
+  height: 200px;
+}
+
+
+.radio {
+  color: navy;
+  width: 30%;
+  border-radius: 0px 20px 0px 30px;
+  box-shadow: 5px 5px 10px black;
+  border-right: 5px solid black;
   font-size: 15px !important;
   position: relative;
-  left: 24%;
-  text-align: start;
-  
+  left: 24px;
+  right: 24px;
+  align-items: center;
 }
-.img{
+.img {
   position: relative;
   right: 30%;
-  bottom:20%;
+  bottom: 20%;
 }
-.img img{
+.img img {
   width: 100%;
 }
-hr{
+hr {
   width: 40%;
   padding: 2px;
   background-color: rgb(255, 255, 255);
@@ -34,13 +42,13 @@ hr{
   top: 36%;
   left: 15%;
 }
-.intro_container{
+.intro_container {
   width: 100%;
   height: 40vh;
   position: relative;
 }
-.txt_grid{
-  color:lightskyblue;
+.txt_grid {
+  color: lightskyblue;
   font-size: 20%;
   padding: 0px;
   position: relative;
@@ -55,29 +63,30 @@ hr{
   left: 9%;
   border-right: 5px solid rgb(29, 202, 255);
 }
-.btn_grid{
+.btn_grid {
   /* background-color: aqua; */
   position: relative;
   top: 30%;
   left: 23%;
 }
-.btn_grid Button{
+.btn_grid Button {
   /* background-color: rgb(83, 83, 83); */
   color: white !important;
   padding: 13px 30px;
   border: 3px solid white !important;
 }
-span{
+span {
   position: relative;
   right: 22%;
-  
+
   color: white;
 }
-.picon,.sicon{
- color: white ;
- padding: 5px;
+.picon,
+.sicon {
+  color: white;
+  padding: 5px;
 }
-.input{
+.input {
   color: rgb(255, 255, 255) !important;
-  border-bottom:4px white solid !important;
+  border-bottom: 4px white solid !important;
 }

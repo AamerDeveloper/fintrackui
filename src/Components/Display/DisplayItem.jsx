@@ -6,7 +6,7 @@ export const DisplayItem = ({ item, fields }) => {
     <React.Fragment>
       {fields.map((fld) => (
         <Grid item xs={12 / fields.length}>
-          <Card sx={{ bgcolor: "aqua" }}>
+          <Card sx={{ bgcolor: "lightcoral", color:"white"}}>
             <CardContent>{item[fld]}</CardContent>
           </Card>
         </Grid>
